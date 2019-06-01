@@ -19,5 +19,11 @@ namespace MyCoreAPIDemo.Repository.Implementation
         {
             return _libraryContext.Authors.ToList();
         }
+
+        public void AddAuthor()
+        {
+            //_libraryContext.Authors.Add
+            //return _libraryContext.Authors.ToList();
+        }
     }
 }

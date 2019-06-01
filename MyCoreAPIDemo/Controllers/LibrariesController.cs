@@ -27,5 +27,15 @@ namespace MyCoreAPIDemo.Controllers
             IEnumerable<Author> authors = _libraryRepository.GetAllAuthor();
             return Ok(authors);
         }
+
+        // POST: api/Libraries/AddAuthor
+        [HttpPost]
+        [Route("AddAuthor")]
+        public IActionResult AddAuthor()
+        {
+
+            return Ok();
+        }
+
     }
 }

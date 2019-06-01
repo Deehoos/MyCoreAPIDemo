@@ -8,5 +8,7 @@ namespace MyCoreAPIDemo.Repository.Contract
     public interface ILibraryRepository<T>
     {
         IEnumerable<T> GetAllAuthor();
+
+       
     }
 }
